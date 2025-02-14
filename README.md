@@ -6,12 +6,6 @@ python manage.py runserver  # Запуск встроенного сервера
 
 python manage.py startapp myapp  # Создание нового приложения
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'myapp',  # Добавляем сюда
-]
-
 python manage.py makemigrations 
 python manage.py migrate
 
